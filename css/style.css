@@ -1,0 +1,194 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(119, 119, 119); 
+  }
+ 
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-light{
+    background-color:black !important;
+    color: red;
+}
+p{
+    color:#a1a1a1
+}
+li{
+    list-style: none;
+}
+
+.navbar-brand img{
+    padding: 0 0 0 0 !important;
+}
+.bg-dark{
+    background-color:#1E1F23 !important;
+    height: 40vh;
+}
+.title span{
+    border: 1px solid white;
+    
+}
+.fa-shopping-cart, .fa-user, .fa-mobile{
+   padding-right: 20px;
+   
+    color: white !important;
+    font-size: 20px;
+}
+.carousel-caption{
+   animation-delay: 0s;
+   animation: slidein 8s linear infinite;
+   transform: translateX(100px);
+   opacity: 0%;
+   
+}
+      
+      @keyframes slidein {
+          
+       10% {
+           opacity: 10%;
+           transform: translateX(0px);
+       }
+       30%{
+           opacity: 100%;
+       }
+       100% {
+       opacity: 100%;
+        transform: translateX(0px);
+       }
+      }
+.carousel p{
+    color: white;
+    top: 700px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-weight: 700 !important;
+    font-size: 64px;
+    margin-left: 0%; 
+    margin-top: 250px !important; 
+    line-height: 15vh;
+
+}
+.pc{
+    margin-bottom: 0px;
+    padding-bottom: 0 !important;
+}
+.btn-flat{
+    color: #d4d4d4;
+}
+.btn-flat:hover{
+    color: #ffffff;
+}
+.contentrow{
+    height: 10vh !important;
+    background-color:#000000;
+}
+.contentBackground{
+    background-color:#ff0000af;
+    height: 10vh !important;
+}
+.contentrow p{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size:36px;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 15px 0 15px 45px;
+    text-shadow: 2px  2px 10px  #000;
+}
+.content{
+    background-color:rgb(255, 255, 255);
+    height: 55vh;
+    padding-left: 0%;
+  
+}
+.lft{
+    padding-top: 45px;
+}
+.content p{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+}
+.rt{
+    padding: 0 2px 0 0;
+    background-color: rgb(119, 119, 119);
+    height: 55vh;
+   }
+.rt img{
+    padding-left: 15px;
+    height: 90%;
+}
+.foot{
+    background-color:#121213;
+    padding: 20px;
+  
+}
+.foot-no{
+    text-align: left;
+    margin-left: 10rem;
+}
+.icon{
+    text-align: center;
+    border: 1px solid #000000af;
+    height: 12vh;
+    background-color:#ff0000af;
+    border-radius: 0px;
+}
+
+.fa-mobile, .fa-envelope, .fa-whatsapp{
+    color: #fff;
+    padding: 10px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.title strong{
+    color: #838383;
+    font-weight: bold;
+    font-size:18px;
+}
+.title a{
+    text-decoration:none;
+    color: rgb(196, 196, 196);
+    padding:0px;
+    font-size: 24px;
+    margin: 0;
+}
+.title a:hover{
+    color: #fff;
+    transition: all 0.5s;
+}
+.add{
+    margin-top: 15px;
+    color:#d4d4d4;
+    text-align: center;
+}
+.link{
+    border-top: 1px solid #525252;
+    padding-top: 20px;
+    border-bottom: 1px solid #525252;
+    padding-bottom: 10px;
+}
+.ft-link{
+    list-style-type: none;
+    text-align:center;
+}
+.ft-link  li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+.ft-link a{
+    color: #6e6e6e;
+    text-decoration:none;
+}
+.ft-link a:hover{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}

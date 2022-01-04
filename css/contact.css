@@ -1,0 +1,81 @@
+ body{
+    background-color: #1e1f23;
+    padding-top: 7rem;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(to right, #000, #ff0000da);
+}
+h5{
+    color: rgb(216, 0, 0);
+}
+p{
+    font-size: 18px;
+    color: #fff;
+}
+.abt{
+    height: 90vh !important;
+}
+.info{
+    margin-top:4rem;
+}
+.contact-icons{
+    width: 60px;
+    float: left;
+    padding: 0px 0;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    background: #ff000093;
+    text-align: center;
+    font-size: 18px;
+}
+.fa-mobile, .fa-envelope, .fa-whatsapp
+{
+    margin: auto;
+}
+.contact-info ul li span {
+    font-size: 18px;
+    display: block;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+.contact-info ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.cap {
+    margin-top: 4rem;
+    margin-left: 5px;
+}
+.p-3{
+    padding:1rem !important;
+}
+label{
+    color: #fff;
+}
+ .alert-success{
+     z-index: 1;
+     background: #D4EDDA;
+     font-size: 18px;
+     padding: 12vh 10px;
+     min-width: 420px;
+     position: fixed;
+     right: 0;
+     top: 10px;
+     border-left: 8px solid #3AD66E;
+     border-radius: 4px;
+ }
+
+ .alert-error{
+     z-index: 1;
+     background: #FFF3CD;
+     font-size: 18px;
+     padding: 12px 10px;
+     min-width: 420px;
+     position: fixed;
+     right: 0;
+     top: 10px;
+     border-left: 8px solid #FFA502;
+     border-radius: 4px;
+ }
